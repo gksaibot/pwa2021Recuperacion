@@ -1,0 +1,57 @@
+#image-overlay {
+    height: 305px;
+    background-image: url(../img/bg_header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.imagen-header-titulo {
+    margin: 43 px auto 5 px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 200;
+    font-size: 24 px;
+    letter-spacing: 1.5em;
+    color: rgba(255, 254, 254, 1);
+}
+
+.imagen-header-titulo h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 300;
+    font-size: 65 px;
+    color: rgba(255, 254, 254, 1);
+}
+.header-navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, .72);
+    z-index: 100;
+
+}
+.dimension {
+    height: 200px;
+    width: 200px;
+}
+.footer {
+    height: 50px;
+    font-size: large;
+    font-style: normal;
+    text-align: center;
+    margin-top: auto;
+    background-color: rgb(214, 175, 124);
+    border-radius: 2px;
+    border-color:royalblue;
+}
+.parrafo {
+    text-align: center;
+}
+.imagen {
+    width: 110px;
+}
+.container{
+    min-height: calc(100vh - 100px - 100px);
+}

@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(223, 223, 223);
+}
+
+#encabezado {
+  background-color: rgb(157, 196, 207);
+  height: 100px;
+}
+
+#contenido {
+  background-color: #FFF; height: auto;
+  margin-bottom:40px;
+}
+
+#pie {
+  background-color: rgb(60, 106, 129);
+  color: #707070;
+  height: 3em;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  font-size: small;
+}
+
+.h1, .h2, .h3 {
+  color: rgb(90, 102, 102);
+}
+
+@media /*(min-width: 576px) and */(max-width: 768px) {
+  #encabezado {
+    background-color: rgb(157, 196, 207);
+    height: 100px;
+  }  
+}

@@ -1,0 +1,117 @@
+
+/*
+Los encuadres son el estilo que se da a los diversos elementos dentro de la columna.
+Permiten manejar mejor los estilos sin sobreescribir los estilos propios de Bootstrap.
+*/
+.encuadre-1, .encuadre-2, .encuadre-3 {
+  height: 95%;
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 1%;
+  text-align: center;
+  padding-top: 40px;
+  border-style: groove;
+}
+.encuadre-1 {
+  background-color: #87AADE;
+}
+.encuadre-2 {
+  background-color: #CCCCCC;
+}
+.encuadre-3 {
+  background-color: #FF9955;
+}
+
+/*
+  Header y Footer son ids específicos para esta tarea, dado que el encabezado y pie del sitio están en otra hoja de estilos
+*/
+
+#header, #footer {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #0F0;
+  border-style: groove;
+  text-align: center;
+}
+
+#header {
+  padding-top: 5px;
+  height: 40px;
+}
+
+/*
+  La clase device-tag se usa para dar formato a los elementos que indican en que dispositivo nos encontramos trabajando.
+*/
+
+.device-tag {
+  background-color:#0FF;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-style: groove;
+  height: 3em;
+  padding-top: 8px;
+  text-align: center;
+  font-style: italic;
+}    
+
+/*
+  Configuración para dispositivos grandes
+*/
+
+@media (min-width: 992px) {
+  #col1, #col2, #col3, #col4, #cola, #colb, #colc, #cold, #colx, #coly {
+    font-size: 50;
+    height: 170px;
+  }
+  #col2 {
+    margin-right: 1px;
+  }
+  #tablet-tag {
+    display: none;
+  }
+  #mobile-tag {
+    display: none;
+  }
+  #footer {
+    background-color: #0F0;
+    text-align: center;
+  }
+  }
+
+/*
+  Configuración para dispositivos medianos
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #col1, #col2, #col3, #col4, #cola, #colb, #colc, #cold, #colx, #coly {
+    align-items: center;
+    font-size: 50;
+    height: 120px;
+  }
+
+  #mobile-tag {
+    display: none;
+  }
+  #desktop-tag {
+    display: none;
+  }
+  #footer {
+    background-color: #0F0;
+    text-align: center;
+  }
+}
+/*
+  Configuración para dispositivos pequeños
+*/  
+  @media /*(min-width: 576px) and */(max-width: 768px) {
+    #col1, #col2, #col3, #col4, #cola, #colb, #colc, #cold, #colx, #coly {
+      align-items: center;
+      font-size: 50;
+      height: 120px;
+    }    
+    #tablet-tag, #colx, #desktop-tag {
+      display: none;
+    }
+    #footer {
+      display: none;
+    }
