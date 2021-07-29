@@ -1,0 +1,110 @@
+[ 
+    {
+        "Id_Disco": 1 ,
+        "Disco": "Orulo",
+        "Año_de_Publicacion": "2013",
+        "imagen": "../img/orulo2.jpg",
+        "Desempeño comercial": "El album debuto en el puesto 4 y en la primer semana vendio mas de 50000 copias",
+        "Formato": "CD y descarga digital",
+        "Sitio_Web": "https://ibighit.com/bts/eng/discography/detail/o_rul8_2.php"
+    },
+    {
+        "Id_Disco": 2 ,
+        "Disco": "Skull4Skull",
+        "Año_de_Publicacion": "2013",
+        "imagen": "../img/2-skull4skull.jpg",
+        "Desempeño comercial": "El album debuto en el puesto 2 y en la primer semana vendio mas de 40000 copias",
+        "Formato": "CD y descarga digital",
+        "Sitio_Web": "https://ibighit.com/bts/eng/discography/detail/2_cool_4_school.php"
+    },
+    {
+        "Id_Disco": 3 ,
+        "Disco": "BoyinLuv",
+        "Año_de_Publicacion": "2014",
+        "imagen": "../img/boyinluv.jpg",
+        "Desempeño_comercial": "Es el principal sencillo del album Skull love Affair y debuto en la posicion 3 y ascendio al 1 dos meses despues",
+        "Formato": "Descarga digital",
+        "Sitio_Web": "https://ibighit.com/bts/eng/discography/detail/skool_luv_affair.php"
+    },
+    {
+        "Id_Disco": 4 ,
+        "Disco": "Butter",
+        "Año_de_Publicacion": "2021",
+        "imagen": "../img/butter.jpg",
+        "Desempeño_comercial": "Es el segundo sencillo en ingles y debuto en la posicion 1",
+        "Formato": "CD",
+        "Sitio_Web": "https://ibighit.com/bts/eng/discography/detail/butter-2.php"
+    },
+    {
+        "Id_Disco": 5 ,
+        "Disco": "Dark and Wild",
+        "Año_de_Publicacion": "2014",
+        "imagen": "../img/darkandwild.jpg",
+        "Desempeño_comercial": "El album debuto en el puesto 2 y la misma semana subio al 1",
+        "Formato": "CD y Descarga Digital",
+        "Sitio_Web": "https://ibighit.com/bts/eng/discography/detail/dark_and_wild.php"
+    },
+    {
+        "Id_Disco": 6 ,
+        "Disco": "Dynamite",
+        "Año_de_Publicacion": "2020",
+        "imagen": "../img/dynamite.jpg",
+        "Desempeño_comercial": "El album debuto en el puesto 1 y fue el primer sencillo numero 1 del grupo en EEUU",
+        "Formato": "CD y Descarga Digital",
+        "Sitio_Web": "https://ibighit.com/bts/eng/discography/detail/dynamite.php"
+    },
+    {
+        "Id_Disco": 7 ,
+        "Disco": "Dynamite",
+        "Año_de_Publicacion": "2020",
+        "imagen": "../img/dynamite.jpg",
+        "Desempeño_comercial": "El album debuto en el puesto 1 y fue el primer sencillo numero 1 del grupo en EEUU",
+        "Formato": "CD y Descarga Digital",
+        "Sitio_Web": "https://ibighit.com/bts/eng/discography/detail/dynamite.php"
+    },
+    {
+        "Id_Disco": 8 ,
+        "Disco": "Dynamite",
+        "Año_de_Publicacion": "2020",
+        "imagen": "../img/dynamite.jpg",
+        "Desempeño_comercial": "El album debuto en el puesto 1 y fue el primer sencillo numero 1 del grupo en EEUU",
+        "Formato": "CD y Descarga Digital",
+        "Sitio_Web": "https://ibighit.com/bts/eng/discography/detail/dynamite.php"
+    },
+    {
+        "Id_Disco": 9 ,
+        "Disco": "Dynamite",
+        "Año_de_Publicacion": "2020",
+        "imagen": "../img/dynamite.jpg",
+        "Desempeño_comercial": "El album debuto en el puesto 1 y fue el primer sencillo numero 1 del grupo en EEUU",
+        "Formato": "CD y Descarga Digital",
+        "Sitio_Web": "https://ibighit.com/bts/eng/discography/detail/dynamite.php"
+    },
+    {
+        "Id_Disco": 10 ,
+        "Disco": "Dynamite",
+        "Año_de_Publicacion": "2020",
+        "imagen": "../img/dynamite.jpg",
+        "Desempeño_comercial": "El album debuto en el puesto 1 y fue el primer sencillo numero 1 del grupo en EEUU",
+        "Formato": "CD y Descarga Digital",
+        "Sitio_Web": "https://ibighit.com/bts/eng/discography/detail/dynamite.php"
+    },
+    {
+        "Id_Disco": 11 ,
+        "Disco": "Dynamite",
+        "Año_de_Publicacion": "2020",
+        "imagen": "../img/dynamite.jpg",
+        "Desempeño_comercial": "El album debuto en el puesto 1 y fue el primer sencillo numero 1 del grupo en EEUU",
+        "Formato": "CD y Descarga Digital",
+        "Sitio_Web": "https://ibighit.com/bts/eng/discography/detail/dynamite.php"
+    },
+    {
+        "Id_Disco": 12 ,
+        "Disco": "Dynamite",
+        "Año_de_Publicacion": "2020",
+        "imagen": "../img/dynamite.jpg",
+        "Desempeño_comercial": "El album debuto en el puesto 1 y fue el primer sencillo numero 1 del grupo en EEUU",
+        "Formato": "CD y Descarga Digital",
+        "Sitio_Web": "https://ibighit.com/bts/eng/discography/detail/dynamite.php"
+    }
+]

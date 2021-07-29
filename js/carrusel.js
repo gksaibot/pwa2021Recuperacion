@@ -2,17 +2,17 @@ function cargar(url)
 {
     $('#foto-placeholder').load(url);
     crossOrigin: null
-    console.log(url);
-}
+    alert(url);
+};
 
 /*
     Carousel
 */
-$('#carousel-example').on('slide.bs.carousel', function (e) {
+/*$('#carousel-example').on('slide.bs.carousel', function (e) {
     /*
         CC 2.0 License Iatek LLC 2018 - Attribution required
     */
-    var $e = $(e.relatedTarget);
+  /*  var $e = $(e.relatedTarget);
     var idx = $e.index();
     var itemsPerSlide = 5;
     var totalItems = $('.carousel-item').length;
@@ -29,4 +29,4 @@ $('#carousel-example').on('slide.bs.carousel', function (e) {
             }
         }
     }
-});
+});*/
