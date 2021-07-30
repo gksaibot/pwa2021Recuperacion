@@ -89,11 +89,11 @@ include_once("../estructura/cabecera.php"); ?>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img id="imagenMod" src="../img/orulo2.jpg" class="imagenModal img-fluid img-thumbnail rounded-3 mb-3" alt="Orulo">
-                    <span class=fw-bold>Año de publicacion: </span><span id="direccionModal"></span><br>
-                    <span class=fw-bold>Desempeño comercial: </span><span id="telefonoModal"></span><br>
-                    <span class=fw-bold>Formato: </span><span id="emailModal"></span><br>
-                    <span class=fw-bold>Sitio web oficial: </span><span id="webModal">/</span><br>
+                    <img id="imagenMod" src="../img/orulo2.jpg" class="imagenModal img-fluid img-thumbnail rounded-3 mb-3" alt="Orulo"><br>
+                    <strong><span class=fw-bold>Año de publicacion: </span></strong><span id="direccionModal"></span><br>
+                    <strong><span class=fw-bold>Desempeño comercial: </span></strong><span id="telefonoModal"></span><br>
+                    <strong><span class=fw-bold>Formato: </span></strong><span id="emailModal"></span><br>
+                    <strong><span class=fw-bold>Sitio web oficial: </span><span id="webModal">/</span><br>
                 </div>
                 <div class="modal-footer">
                     
@@ -108,4 +108,3 @@ include_once("../estructura/cabecera.php"); ?>
 <?php include_once("../estructura/pie.php"); ?>
 <script src="../js/eje3ajax.js"></script>
 </main> <!-- Fin main cuerpo -->
-

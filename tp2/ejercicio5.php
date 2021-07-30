@@ -33,7 +33,7 @@ include_once("../estructura/cabecera.php"); ?>
                     <th>FirstName</th>                                
                     <th>LastName</th>  
                     <th>Gender</th>
-                    <th>Password</th>
+                    <!-- <th>Password</th> -->
                     <th>Status</th>
                 </tr>
                 </thead>
@@ -70,7 +70,7 @@ include_once("../estructura/cabecera.php"); ?>
                 {"data": "first_name"},
                 {"data": "last_name"},
                 {"data": "gender"},
-                {"data": "password"},
+                // {"data": "password"},
                 {"data": "status"}
             ],
             lengthMenu: [ [5, 10, -1], [5, 10, "All"] ],  

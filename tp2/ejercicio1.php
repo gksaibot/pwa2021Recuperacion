@@ -24,6 +24,8 @@ include_once("../estructura/cabecera.php"); ?>
     </div>
     
   </div>
-<?php include_once("../estructura/pie.php"); ?>  </body>
+<?php include_once("../estructura/pie.php"); ?>
+<script type="text/javascript" src="../js/index.js"></script>
+  </body>
 </html>
   

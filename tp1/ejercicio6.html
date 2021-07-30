@@ -135,40 +135,40 @@
     <div class="row" id="listaImagen">
         <div class="col-sm-4" id="listado">
             <ul class="list-group">
-                <a href="#" onclick="cargar('../img/orulo2.jpg')">
+                <a href="" onclick="cargar('../img/orulo2.jpg')">
                     <li class="list-group-item" onclick="">Disco Orulo</li>
                 </a>
-                <a href="#" onclick="cargar('../img/2-skull4skull.jpg')">
+                <a href="" onclick="cargar('../img/2-skull4skull.jpg')">
                     <li class="list-group-item" onclick="">Disco Skull</li>
                 </a>
-                <a href="#" onclick="cargar('../img/boyinluv.jpg')">
+                <a href="" onclick="cargar('../img/boyinluv.jpg')">
                     <li class="list-group-item" onclick="">Disco BoyinLuv Japon</li>
                 </a>
-                <a href="#" onclick="cargar('../img/butter.jpg')">
+                <a href="" onclick="cargar('../img/butter.jpg')">
                     <li class="list-group-item" onclick="">Disco Butter</li>
                 </a>
-                <a href="#" onclick="cargar('../img/darkandwild.jpg')">
+                <a href="" onclick="cargar('../img/darkandwild.jpg')">
                     <li class="list-group-item" onclick="">Disco Dark and Wild</li>
                 </a>
-                <a href="#" onclick="cargar('../img/dynamite.jpg')">
+                <a href="" onclick="cargar('../img/dynamite.jpg')">
                     <li class="list-group-item" onclick="">Disco Dynamite</li>
                 </a>
-                <a href="#" onclick="cargar('../img/Map_of_de_soul.jpg')">
+                <a href="" onclick="cargar('../img/Map_of_de_soul.jpg')">
                     <li class="list-group-item" onclick="">Disco Map of de soul</li>
                 </a>
-                <a href="#" onclick="cargar('../img/persona.jpg')">
+                <a href="" onclick="cargar('../img/persona.jpg')">
                     <li class="list-group-item" onclick="">Disco Persona</li>
                 </a>
-                <a href="#" onclick="cargar('../img/tears.jpg')">
+                <a href="" onclick="cargar('../img/tears.jpg')">
                     <li class="list-group-item" onclick="">Disco Tears</li>
                 </a>
-                <a href="#" onclick="cargar('../img/wings.jpg')">
+                <a href="" onclick="cargar('../img/wings.jpg')">
                     <li class="list-group-item" onclick="">Disco Wings</li>
                 </a>
-                <a href="#" onclick="cargar('../img/young_forever.jpg')">
+                <a href="" onclick="cargar('../img/young_forever.jpg')">
                     <li class="list-group-item" onclick="">Disco Young Forever</li>
                 </a>
-                <a href="#" onclick="cargar('../img/fakelove.jpg')">
+                <a href="" onclick="cargar('../img/fakelove.jpg')">
                     <li class="list-group-item" onclick="">Disco Fake Love</li>
                 </a>
             </ul>
@@ -176,13 +176,30 @@
         
         <div id="foto-placeholder" class="col-sm-8">
             <div class="imagen2">
-                <img src="../img/orulo2.jpg" alt="Disco Orulo">
+                <img id="img1" class="imagen2" src="../img/orulo2.jpg" alt="Disco Orulo">
             </div>
             
         </div>
         
     </div>
+</div>
+</div>
+</div>
+<footer>
+<div class="container-fluid">
+      <p class="parrafo text-center">Programacion Web Avanzada
+      -Universidad del Comahue - Alumno: Cerda Agustin - Legajo: 71853</p>
 
+</div>
+</footer>
+<script>
+function cargar(url)
+{
+event.preventDefault();
+var imagen = document.getElementById("img1");
+imagen.src = url;
+}
+</script>
 
 </body>
 </html>
